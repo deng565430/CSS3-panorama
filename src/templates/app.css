@@ -1,0 +1,24 @@
+.contaniner {
+  margin: 0 auto 0 auto;
+  width: 8.0625rem;
+  perspective: 25rem;
+  z-index: 100;
+}
+
+.box{
+  transform-style: preserve-3d;
+  height: 100%;
+  perspective-origin: 50% 50%;
+}
+
+.box > div {
+  position: absolute;
+  width: 8.0625rem;
+  height: 73.125rem;
+}
+.audio-flag {
+  text-align: right;
+  position: absolute;
+  right: 1rem;
+  z-index: 199;
+}
